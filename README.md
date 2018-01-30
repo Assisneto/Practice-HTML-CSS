@@ -1,9 +1,11 @@
+Repository created for the CSS final project and HTML course of the Alura online course.
 
-repository created to the final project of CSS and HTML <a href= "https://www.alura.com.br/"></a> course of alura online course.
-
-The final project in the most and that a personal blog of a programmer where because their technical information and their experiences !!!!
-
+The final project in the more and that a personal blog of a programmer where are its technical information and its
+experiences!!!!
 
 Repositório criado para o projeto final do CSS e curso HTML do curso on-line Alura.
-O projeto final na mais e que um blog pessoal de um programador aonde pois suas informaçoes tecnicas e suas
-experiencias!!!!
+
+O projeto final na mais e que um blog pessoal de um programador aonde estão suas informações técnicas e suas
+experiências!!!!
+
+(https://www.alura.com.br/curso-online-introducao-html-css)
