@@ -52,7 +52,7 @@ main a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-.citacao-bio, .navegacao-site, .rodape-pagina {
+.citacao-bio, .navegacao-site {
     padding: 20px;
 }
 
@@ -135,15 +135,29 @@ cite {
 main {
     float: left;
 	width: 85%;
+	padding-bottom: 25px;
 }
 
 .minha-foto, .navegacao-site {
     float: right;
-    width: 15%;
     box-sizing: border-box;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
 }
 .rodape-pagina {
-    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+	padding: 10px;
+}
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.navegacao-site{
+	width: 15%;
+	position: relative;
+	top: 310px;
 }
