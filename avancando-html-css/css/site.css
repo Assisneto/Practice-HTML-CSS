@@ -45,6 +45,10 @@ main p {
     color: #F2FFFC;
     padding: 1em;
 }
+.navegacao-site h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
 
 .navegacao-site a {
     color: inherit;
@@ -52,10 +56,6 @@ main p {
     text-transform: lowercase;
 }
 
-.navegacao-site h1 {
-    font-size: 1.5em;
-    margin-bottom: 1em;
-}
 
 .rodape-pagina {
     color: #F2FFFC;
