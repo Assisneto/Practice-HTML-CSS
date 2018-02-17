@@ -258,3 +258,12 @@ body {
 .blog .mais-recente a {
     color: #F26;
 }
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
+}
+.blog a:hover,
+.blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
+}
