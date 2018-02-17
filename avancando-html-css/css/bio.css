@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.citacao-bio:nth-of-type(even){
+.citacao-bio:nth-of-type(even) {
     float: left;
     margin-left: 0;
 }
@@ -16,15 +16,7 @@
     float: right;
     margin-right: 0;
 }
-.citacao-bio:hover {
-    box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
-}
-.citacao-bio:nth-of-type(odd):hover {
-    transform: scale(1.2) rotate(5deg);
-}
-.citacao-bio:nth-of-type(even):hover {
-    transform: scale(1.2) rotate(-5deg);
-}
+
 .citacao-bio:hover,
 .citacao-bio:focus {
     box-shadow: 0 0 0 99999px rgba(0,0,0,.8);

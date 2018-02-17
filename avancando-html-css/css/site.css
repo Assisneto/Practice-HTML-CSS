@@ -34,7 +34,10 @@ main a {
     color: #851944;
 }
 
-main a:nth-last-of-type(n){
+main a:hover,
+main a:focus,
+footer a:focus,
+footer a:hover {
     color: red;
 }
 
@@ -49,10 +52,6 @@ main p {
     color: #F2FFFC;
     padding: 1em;
 }
-.navegacao-site h1 {
-    font-size: 1.5em;
-    margin-bottom: 1em;
-}
 
 .navegacao-site a {
     color: inherit;
@@ -60,6 +59,15 @@ main p {
     text-transform: lowercase;
 }
 
+.navegacao-site a:hover,
+.navegacao-site a:focus {
+    text-shadow: 0 0 2px pink;
+}
+
+.navegacao-site h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
 
 .rodape-pagina {
     color: #F2FFFC;
@@ -144,14 +152,4 @@ main {
     top: 0;
     right: 0;
     height: 300px;
-}
-main a:hover,
-main a:focus,
-footer a:hover,
-footer a:focus {
-    color: red;
-}
-.navegacao-site a:hover,
-.navegacao-site a:focus {
-    text-shadow: 0 0 2px pink;
 }
